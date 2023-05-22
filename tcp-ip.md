@@ -151,7 +151,6 @@
               </tr>
             </table>
         </li>
-        <li>Uses DHCP, ICMP, IGMP</li>
         <li>Uses MTU - Maximum Transmission Unit or Max packet size in bytes. 
         <p>Average = 1500 bytes.</p></li>
         <li>Divides data block into packets.</li>
@@ -305,7 +304,7 @@
         <li>
             <span style="display: block; margin: 8px 0; font-size: 15px">
                 Network layer
-                <span style="font-weight: initial; font-size: 12px">- 8 functions</span>
+                <span style="font-weight: initial; font-size: 12px">- 7 functions</span>
                 <ul>
                     <li>MTU</li>
                     <li>TTL</li>
