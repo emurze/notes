@@ -1,4 +1,4 @@
-*Always use blanks*
+Always use blanks
 =====================
 
 # Head 1
