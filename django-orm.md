@@ -1,17 +1,25 @@
 # Django orm 
 
-### Queryset execution
+## Queryset
+
+### Execution
 
 * iterations
 * slice with step
 * repr(), len(), bool()
 
-### Queryset properties
+### Properties
 
 * .ordered
 * .db
 * .query
 * ._result_cache
+
+
+### Features
+* unique 
+* lazy
+* using cache
 
 
 ### Methods.
@@ -89,3 +97,21 @@ Features
 .none()
 .all()
 ```
+
+### Repeat Queryset
+
+Execution - 3
+
+Properties - 4
+
+Features - 3
+
+Methods:
+1. Queryset - 2
+2. Filtering - 2
+3. Aggregation - 3
+4. Ordering - 2
+5. Select - 2
+6. DML - 8
+7. Optimization - 16
+8. Features - 3
