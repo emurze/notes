@@ -107,11 +107,10 @@ Properties - 4
 Features - 3
 
 Methods:
-1. Queryset - 2
-2. Filtering - 2
-3. Aggregation - 3
-4. Ordering - 2
-5. Select - 2
-6. DML - 8
-7. Optimization - 16
-8. Features - 3
+1. Filtering - 2
+2. Aggregation - 3
+3. Ordering - 2
+4. Select - 2
+5. DML - 8
+6. Optimization - 16
+7. Features - 3
