@@ -50,6 +50,12 @@ Select
 .value_list(flat=True, named=True)
 
 
+Date
+
+.date(kind='month')
+.datetimes(kind='hour')
+
+
 DML 
 
 .get()
@@ -111,6 +117,7 @@ Methods:
 2. Aggregation - 3
 3. Ordering - 2
 4. Select - 2
-5. DML - 8
-6. Optimization - 16
-7. Features - 3
+5. Date - 2
+6. DML - 8
+7. Optimization - 16
+8. Features - 3
