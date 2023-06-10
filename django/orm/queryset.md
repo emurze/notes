@@ -1,4 +1,4 @@
-# Django orm 
+﻿# Django orm 
 
 ## Queryset
 
@@ -95,6 +95,16 @@ Optimization
 .prefetch_related(
     Refrech()
 ) - CACHE
+prefetch_related_objects(
+    list(queryset), ‘tags’
+)
+FlteredRelation
+queryset = Blog.objects.annotate(
+    tags2023=FilteredRelation(
+        'tags',
+        condition=Q(created__second__in=[*range(1, 60, 2)])
+    )
+).values('title', 'tags2023__pk')
 
 
 Features
@@ -119,5 +129,5 @@ Methods:
 4. Select - 2
 5. Date - 2
 6. DML - 8
-7. Optimization - 16
+7. Optimization – 17
 8. Features - 3
