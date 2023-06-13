@@ -106,6 +106,8 @@ queryset = Blog.objects.annotate(
     )
 ).values('title', 'tags2023__pk')
 
+USAGE - <| JOIN ON |> better than WHERE CONDITION 
+
 
 Features
 
@@ -129,5 +131,5 @@ Methods:
 4. Select - 2
 5. Date - 2
 6. DML - 8
-7. Optimization – 17
+7. Optimization – 18
 8. Features - 3
