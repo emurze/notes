@@ -25,3 +25,9 @@ ManyToManyField or ForeignKey through _set or related_name.
 | OneToOneField   | One API - **AVFN**        | One API - **AVFN**      |
 | ForeignKey      | Many API - **AVSORN**     | One API - **AVFN**      |
 | ManyToManyField | Many API - **AVSORN**     | Many API - **AVFN**    |
+
+
+### Repeat Relations
+
+1. API Methods - 6
+2. Table

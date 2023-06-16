@@ -1,4 +1,4 @@
-﻿# Django orm 
+﻿# Django orm
 
 ## Queryset
 
@@ -17,7 +17,7 @@
 
 
 ### Features
-* unique 
+* unique
 * lazy
 * using cache
 
@@ -27,7 +27,7 @@
 ```
 Filtering
 
-.filter() 
+.filter()
 .exclude()
 
 
@@ -56,7 +56,7 @@ Date
 .datetimes(kind='hour')
 
 
-DML 
+DML
 
 .get()
 .create()
@@ -67,7 +67,7 @@ DML
 .update_or_create()
 
 .bulk_create()
-.bubl_update()
+.bulk_update()
 
 
 Optimization
@@ -85,7 +85,7 @@ Optimization
 .using()
 
 .last() / .first()
-.latest() / .earliest() - last or frst by ordering
+.latest() / .earliest() - last or first by ordering
 
 .union(all=True)
 .intersection()
@@ -98,15 +98,6 @@ Optimization
 prefetch_related_objects(
     list(queryset), ‘tags’
 )
-FlteredRelation
-queryset = Blog.objects.annotate(
-    tags2023=FilteredRelation(
-        'tags',
-        condition=Q(created__second__in=[*range(1, 60, 2)])
-    )
-).values('title', 'tags2023__pk')
-
-USAGE - <| JOIN ON |> better than WHERE CONDITION 
 
 
 Features
@@ -131,5 +122,5 @@ Methods:
 4. Select - 2
 5. Date - 2
 6. DML - 8
-7. Optimization – 18
+7. Optimization – 17
 8. Features - 3
