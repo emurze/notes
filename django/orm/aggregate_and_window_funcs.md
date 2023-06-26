@@ -53,6 +53,8 @@ Aggregate | Window functions works by Framed
 
 ROWS and RANGE always with ORDER BY
 
+RANGE - by the same oreder by
+
 ORDER BY ... ROWS BETWEEN ... and ...
 UNBOUNDED PRECEDING - window starts with first string of group
 UNBOUNDED FOLLOWING - window ends with last row of group
@@ -76,3 +78,10 @@ Blog.objects.annotate(
    ), len=Length('title')
 ).values('tags__name', 'len', 'test')
 ```
+
+### Repeat
+
+1. rank functions - 4
+2. shift functions - 5
+3. frame - 4 states
+4. types of the frame - 2

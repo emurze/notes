@@ -78,7 +78,7 @@
       )
    ).values('rfe')
 
-   WHERE EXISTS
+   WHERE EXISTS or ~EXISTS
 
    Blog.objects.filter(
       Exists(
