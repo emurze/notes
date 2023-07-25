@@ -30,30 +30,36 @@
 * docker exec -it "container" /bin/bash or "immediately in workdir"
 * docker system prune -a --volumes — remove all stopped or useless images & containers
 
+<br>
 
 * docker ps -a
 * docker rm -f "container"
 
+<br>
 
 * docker images
 * docker rmi "image"
 
+<br>
 
 * docker kill "container"
 * docker pause / unpause "container"
 * docker stop / start / restart "container"
 
+<br>
 
 * docker logs -f "container" — updated
 * docker stats "container" — CPU | Memory
 * docker inspect "container"
 
+<br>
 
 * docker volume ls
 * docker volume rm "volume"
 * docker volume prune
 * docker volume create "volume_name"
 
+<br>
 
 * docker network ls
 * docker network rm "network"
@@ -63,6 +69,7 @@
 --subnet "192.108.10/24" --gateway 192.108.10.1 --ip-range
 (***--net*** for containers)
 
+<br>
 
 * docker tag <image> <new_tag>
 * docker build . -t my_image:v01
@@ -82,14 +89,18 @@
 * useradd -m -s /bin/bash "username"
 * usermod -aG docker "username"
 
+<br>
 
 * sudo su -
 * sudo -i -u emurze
 * chmod +x manage.py
 
+<br>
+
 * service docker status
 * service docker stop / start / restart
 
+<br>
 
 * env
 * ps xa
