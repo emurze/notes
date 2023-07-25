@@ -20,6 +20,7 @@
 
 ![docker_compose_2](images/docker_compose_2.png)
 
+<br>
 
 ### docker
 
@@ -74,6 +75,7 @@
 * docker tag "image" "new_tag"
 * docker build . -t my_image:v01
 
+<br>
 
 ### docker compose
 
@@ -83,6 +85,7 @@
 * docker compose logs -f
 * docker compose stop / start / restart
 
+<br>
 
 ### system
 
