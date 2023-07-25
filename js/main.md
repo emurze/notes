@@ -170,5 +170,8 @@ if (typeof DEBUG !== "undefined") {}
 || when falsy
 
 
-
+let obj = {
+    name,
+    func()
+}
 ```
