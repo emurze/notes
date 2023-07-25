@@ -57,7 +57,7 @@
 * docker volume ls
 * docker volume rm "volume"
 * docker volume prune
-* docker volume create "volume_name"
+* docker volume create "volume"
 
 <br>
 
@@ -65,13 +65,13 @@
 * docker network rm "network"
 * docker network inspect "network"
 * docker network connect / disconnect "network" "container"
-* docker network create "network_name" -d bridge 
+* docker network create "network" -d bridge 
 --subnet "192.108.10/24" --gateway 192.108.10.1 --ip-range
 (***--net*** for containers)
 
 <br>
 
-* docker tag <image> <new_tag>
+* docker tag "image" "new_tag"
 * docker build . -t my_image:v01
 
 
