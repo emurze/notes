@@ -22,7 +22,7 @@
 
 <br>
 
-### docker
+## docker
 
 * docker --version
 * docker pull "image"
@@ -77,7 +77,7 @@
 
 <br>
 
-### docker compose
+## docker compose
 
 * docker compose build .
 * docker compose up -d --build 
@@ -87,7 +87,7 @@
 
 <br>
 
-### system
+## system
 
 * useradd -m -s /bin/bash "username"
 * usermod -aG docker "username"
