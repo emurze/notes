@@ -1,6 +1,7 @@
 # Abstract Factory
 
 ### [ Aim ] is to group entities by families where one row equals to one family.
+### 1 family == 1 factory 
 
 ![problem](images/problem.png)
 
