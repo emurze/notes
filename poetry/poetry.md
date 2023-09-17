@@ -6,6 +6,8 @@ poetry check
 ```
 
 ```
+poetry init
+
 poetry new <project_name>
 
 poetry env use python:3.11
@@ -28,4 +30,4 @@ poetry env info
 ```
 
 
-[poetry-dev-dependencies]
+```[poetry-dev-dependencies]```
