@@ -62,6 +62,7 @@ if limit exceeded then unpopular will be deleted
 * conn.zinterstore( zset , { zset : .5}) - use aggregate
 * conn.zremrangebyrank( zset , 20_000, -1)
 * conn.zcard( zset ) - count
+* conn.zrank( zset ,value) - get rank ( index ) from item
 
 
 ### Hash (DB)
@@ -87,3 +88,4 @@ conn.zinterstore( zset , { zset : .5})
 * Recommendation systems single or plural using Redis
 * Always clean cache via Limit and conn.zcard() using Redis
 * Don't cache all pages
+* Db - fast insert, Redis - fast retrieve
