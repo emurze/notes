@@ -73,8 +73,8 @@ if limit exceeded then unpopular will be deleted
 
 ### Clean
 
-conn.expire(key, 60)
-conn.delete(*keys)
+* conn.expire(key, 60)
+* conn.delete(*keys)
 
 
 ## Conclusion
