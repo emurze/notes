@@ -90,6 +90,8 @@ driver.close() - close window
 ## Elem
 
 ```
+elem.text
+
 elem.send_keys()
 
 elem.send_keys(Keys.RETURN | Keys.ENTER)
@@ -135,7 +137,11 @@ action_chains.drag_and_drop(element, target).perform()
 
 ```
 # explicit - wait elem 10 seconds then time error
-WebdriverWait(driver, 10).until(ec.<method>())
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+WebDriverWait(driver, 10).until(
+  ec.presence_of_element_located((By.ID, "myDynamicElement"))
+)
 
 # implicit - wait 10 seconds
 driver.implicitly_wait(10)
