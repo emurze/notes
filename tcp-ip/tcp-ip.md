@@ -3,7 +3,7 @@
 
 <h1>Model TCP / IP </h1>
 <h3 style="display: inline-block;">
-    Model TCP / IP 
+    Model TCP / IP
     <span style="font-size: 13px; font-weight: normal;">— network model describing the process of digital data transmission.</span></h3>
 <h5 style="display: inline-block;"></h5>
 
@@ -45,7 +45,7 @@
         <ol style="display: block; margin: 0;">
             <li>HTTP ( Keep alive ) - persistent connection. And the range of the other headers. </li>
             <li>Set in response and get in request Cookies. It is mainly tokens because data stored on server.</li>
-            <li>WebSocket - protocol that allows set permanent bidirectional connection. 
+            <li>WebSocket - protocol that allows set permanent bidirectional connection.
                 We can send and accept messages without http-request.</li>
         </ol>
     </p>
@@ -84,7 +84,7 @@
     <h2 style="margin: 30px 0 15px 0">Transport layer</h2>
     <h3 style="margin: 0 0 8px 0;">TCP — Transmission Control Protocol</h3>
     <p style="display: inline-block; margin: 0 0 12px 0;">
-        It provides a channel for the communication needs of applications.<br> 
+        It provides a channel for the communication needs of applications.<br>
         Always waits packets (flag FIN) and doesn't drop connection because ( keep-aline ).<br>
         Using in banks, social networks, articles where accuracy is important.
     </p>
@@ -151,14 +151,14 @@
               </tr>
             </table>
         </li>
-        <li>Uses MTU - Maximum Transmission Unit or Max packet size in bytes. 
+        <li>Uses MTU - Maximum Transmission Unit or Max packet size in bytes.
         <p>Average = 1500 bytes.</p></li>
         <li>Divides data block into packets.</li>
         <li>Use gray and white addresses with NAT.</li>
         <li>Algorithm:
             <ul>
                 <li>Get closer ip from ARP.</li>
-                <li>Get MAC-address from ARP table or 
+                <li>Get MAC-address from ARP table or
                     <p>Via extra request to router, but algorithm must know the IP.</p>
                     <p style="display: inline-block; margin: 8px 0 4px 0;">Send network-wide issue</p>
                     <ul style="margin-bottom: 8px">
@@ -169,7 +169,7 @@
                 </li>
                 <li>Send frame to MAC-address</li>
                 <li>PC: It's my MAC-address. Ohh no! | discarding frame.</li>
-                <li>Router: Ok data. if host is in the same network then I will send frame to closer host 
+                <li>Router: Ok data. if host is in the same network then I will send frame to closer host
                     <p>else to closer network (in another router)</p></li>
                 <li>Get closer IP from ARP ... </li>
             </ul>
@@ -177,7 +177,7 @@
     </ol>
     <h3 style="display: inline;">TTL — Time to live</h3>
     <p style="margin: 5px 0 35px 0; width: 500px;">
-        Each packet has own TTL that decrements each transition through routers.<br> 
+        Each packet has own TTL that decrements each transition through routers.<br>
         If TTL = 1 then router discards it.
     </p>
     <h3 style="display: inline;">DHCP — Dynamic Host Configuration Protocol</h3>
@@ -188,12 +188,12 @@
     </p>
     <h3 style="display: inline;">ARP — Address Resolution Protocol</h3>
     <p style="margin: 5px 0 35px 0; width: 500px;">
-        Communication protocol used for discovering the link layer address,<br> 
+        Communication protocol used for discovering the link layer address,<br>
         such as a MAC address, associated with a given internet layer address.
     </p>
     <h3 style="display: inline;">ICMP — Internet Control Message Protocol</h3>
     <p style="margin: 5px 0 35px 0; width: 500px;">
-        The network layer protocol used to transmit control messages between hosts<br> 
+        The network layer protocol used to transmit control messages between hosts<br>
         and routers to report whether hosts are reachable and routes are available.
     </p>
     <h3 style="display: inline;">IGMP — Internet Group Management Protocol</h3>
@@ -217,7 +217,7 @@
         Network Interface
         <span style="font-size: 13px; font-weight: normal;">— provides connection and organizes network.</span></h3>
     <ol style="display: block; margin: 0 0 22px 0;">
-        <li>Provides the same: 
+        <li>Provides the same:
             <ul>
                 <li>Radio frequency</li>
                 <li>Speed</li>
@@ -232,7 +232,7 @@
                     Ethernet, WiFi
                 </li>
                 <li>
-                    Token - slower, but without collision.<br> 
+                    Token - slower, but without collision.<br>
                     Used with big data where collision is expensive.
                 </li>
             </ul>
@@ -243,10 +243,10 @@
     <p style="margin: 5px 0 35px 0; width: 500px;">
         Unique identifier assigned to a network interface controller (NIC)<br>
         for use as a network address in communications within a network segment.<br>
-        Without MAC-address we cannot get access to send packets. 
+        Without MAC-address we cannot get access to send packets.
     </p>
     <div>
-        <h3 style="display: inline-block; margin: 0;">Modem</h3> 
+        <h3 style="display: inline-block; margin: 0;">Modem</h3>
         <ul style="font-size: 14px; margin: 5px 10px 5px 5px;">
             <li>Hasn't IP</li>
             <li>Has 1 client</li>
@@ -328,6 +328,6 @@
         </li>
     </ol>
 </div>
-    
+
 
 </div>

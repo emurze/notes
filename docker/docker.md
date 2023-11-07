@@ -1,6 +1,6 @@
 # Docker
 
-![docker_sheme](images/docker_container.png)
+![docker_scheme](images/docker_container.png)
 
 ![docker_cycle](images/cycle.png)
 
@@ -26,7 +26,7 @@
 
 * docker --version
 * docker pull "image"
-* docker run -d --rm -it --name "container" -p 80:80 -p 433:80 -e NAME=Vlad 
+* docker run -d --rm -it --name "container" -p 80:80 -p 433:80 -e NAME=Vlad
 -v app:/var/www/html "image:version" --net my-network "cmd in container"
 * docker exec -it "container" /bin/bash or "immediately in workdir"
 * docker system prune -a --volumes — remove all stopped or useless images & containers
@@ -66,7 +66,7 @@
 * docker network rm "network"
 * docker network inspect "network"
 * docker network connect / disconnect "network" "container"
-* docker network create "network" -d bridge 
+* docker network create "network" -d bridge
 --subnet "192.108.10/24" --gateway 192.108.10.1 --ip-range
 (***--net*** for containers)
 
@@ -80,7 +80,7 @@
 ## docker compose
 
 * docker compose build .
-* docker compose up -d --build 
+* docker compose up -d --build
 * docker compose down -v
 * docker compose logs -f
 * docker compose stop / start / restart
