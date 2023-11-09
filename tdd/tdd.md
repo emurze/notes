@@ -6,13 +6,13 @@
 
 * Functional Tests - <span style="color: white">QA-Task</span> | <span style="color: #00bfff">Dev-Task</span> have User History and Human-names
 
-* Integration Tests - <span style="color: #00bfff">Dev-Task</span> Tasks between units or modules
+* Integration Tests - <span style="color: #00bfff">Dev-Task</span> Tasks between units or modules. Access to unit is not required.
 
 * Component Tests - <span style="color: white;">QA-Task</span> ( black-box testings, comes after unittests, Is not docs for future use )<br>
 Detailized func test
 
 * Unittests - <span style="color: #00bfff">Dev-Task</span> ( white-box, should contain great project docs ) - <br>
-<span style="color: green;">Checks correctness of the 1 unit of behavior if not then it's integration test</span>
+<span style="color: green;">Checks correctness of the 1 unit of behavior if not then it's integration test</span> Access to unit is required
 
 ## Dev pyramide
 

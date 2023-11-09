@@ -1,4 +1,4 @@
-# Authentication - Identification
+# Session Based Authentication ( Identification )
 
 ![client_send_request_to_server](images/client_send_request_to_server.png)
 
@@ -20,4 +20,16 @@
 
 ![when_user_logout_session_deleted](images/when_user_logout_session_deleted.png)
 
+# Token Authentication
+
+## Simple-Token
+
+## JWT-Token
+
 # Authorization - <span style="color: lightgreen;">getting access to some things</span>
+
+## Cookies ( session_id )
+
+## Tokens
+
+## OAuth
