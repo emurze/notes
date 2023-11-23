@@ -187,7 +187,7 @@ container-xll
 .spinner-border-sm
 ```
 
-# Progress Bar
+## Progress Bar
 ```
 # Progress
 
@@ -213,7 +213,7 @@ container-xll
 </div>
 ```
 
-# Spinner
+## Spinner
 ```
 # spinner
 

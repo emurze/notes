@@ -11,3 +11,7 @@
 ## Flower
 
 ![flower_page](images/flower_page.png)
+
+## Celery + Redis + RabbitMQ 
+
+![celery_redis_rabbitmq](images/celery_redis_rabbitmq.png)
