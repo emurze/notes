@@ -8,7 +8,7 @@
 
 ![server_create_session](images/server_create_session.png)
 
-## 2. Server send session_id in cookies
+## 2. Server send session_id generated using application SECRET_KEY in cookies
 
 ![server_send_cookies](images/server_send_cookies.png)
 
